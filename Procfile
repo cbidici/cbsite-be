@@ -1,1 +1,1 @@
-web: gunicorn cbidici.wsgi --log-file -
+web: gunicorn cbsite.wsgi --log-file -
