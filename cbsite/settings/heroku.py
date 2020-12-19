@@ -27,3 +27,6 @@ DATABASES = {
     }
 }
 
+MIDDLEWARE.insert('whitenoise.middleware.WhiteNoiseMiddleware')
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
