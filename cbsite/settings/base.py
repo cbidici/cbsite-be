@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'siteapp.apps.SiteappConfig',
     'markdownme.apps.MarkdownmeConfig',
+    'herokufe.apps.HerokufeConfig',
 ]
 
 MIDDLEWARE = [
