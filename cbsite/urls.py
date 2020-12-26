@@ -24,5 +24,5 @@ urlpatterns = [
     path('api/auth/', include('rest_framework.urls')),
     url(r'^api/login/$', views.obtain_auth_token),
     url(r'^api/', include('blog.urls')),
-    url('', include('herokufe.urls'))
+    url(r'^(?:.*)/?$', include('herokufe.urls'))
 ]
